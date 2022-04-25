@@ -1,0 +1,461 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(5, 5, 5);
+    background-image: url(imagenes/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+header{
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo1 h1{
+    color: rgb(3, 3, 3);
+    font-family: "lobster", cursive;
+    font-size: 40px;
+}
+.logo1{
+    padding: 70px;
+    padding-right: 20px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.BarraDeNavegacion{
+    text-align: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-left: 180px;
+    font-size: 45px; 
+    font-family: "bebas neue", cursive
+    
+}
+li a{
+    
+    color: rgb(0, 0, 0);
+    margin-right: 25px;
+    padding: 10px 0px;
+    
+}
+ ul li a:hover{
+    color: rgb(179, 122, 58);
+}
+.pagina1{
+    background-image: url(imagenes/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.encabezado1{
+    background-color: rgb(179, 122, 58);
+    width: 100%;
+    height: 90px;
+}
+.navegador1 img{
+    padding-top: 65px;
+    padding-left: 58px;
+}
+.Barra1{
+    display: flex;
+    font-size: 40px;
+    font-family: "bebas neue", cursive;   
+    justify-content: center;
+}
+.contenedor{
+    display: grid;
+
+}
+
+
+
+
+
+
+.pagina2{
+    background-color: black;
+    background-image: url(imagenes/fondo4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.encabezado2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(179, 122, 58);
+}
+.navegador2 img{
+    display: flex;
+    float: left;
+    padding-left: 65px;
+    
+}
+.barra2{
+   display: flex;
+   justify-content: center;   
+    padding-top: 10px;
+    font-family: "bebas neue", cursive;
+}
+.barra2 li{
+    list-style: none;
+}
+.barra2 li a{
+    color: black;
+    margin-right: 45px;
+    font-size: 35px;
+}
+.barra2 ul li a:hover{
+    color: white;
+}
+.titulo2{
+    font-family: "bebas neue", cursive;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+article{
+    text-align: center;
+}
+.FilaUno{
+    display: flex;
+    padding: 50px 250px;
+    
+}
+.Producto1{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto1 h4 {
+    color: white
+}
+.Producto1  p{
+    color: white;
+}
+.Producto2{
+    background-color: #431800;
+   padding: 20px 70px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto2 h4 {
+    color: white
+}
+.Producto2  p{
+    color: white;
+}
+.Producto3{
+    background-color: #431800;
+    padding: 20px 70px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto3 h4 {
+    color: white
+}
+.Producto3  p{
+    color: white;
+}
+.Producto4{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto4 h4 {
+    color: white
+}
+.Producto4  p{
+    color: white;
+}
+.Producto5{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto5 h4 {
+    color: white
+}
+.Producto5  p{
+    color: white;
+}
+.Producto6{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto6 h4 {
+    color: white
+}
+.Producto6  p{
+    color: white;
+}
+
+.FilaDos{
+    display: flex;
+    padding: 50px 250px;
+}
+.FilaDos div h4{
+    color: white;
+}
+.FilaDos div p{
+    color: white;
+}
+.pagina2{
+    background-color: black;
+    background-image: url(imagenes/fondo4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.encabezado2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(179, 122, 58);
+}
+.navegador2 img{
+    display: flex;
+    float: left;
+    padding-left: 65px;
+    
+}
+.barra2{
+   display: flex;
+   justify-content: center;   
+    padding-top: 10px;
+    font-family: "bebas neue", cursive;
+}
+.barra2 li{
+    list-style: none;
+}
+.barra2 li a{
+    color: black;
+    margin-right: 45px;
+    font-size: 35px;
+}
+.barra2 ul li a:hover{
+    color: white;
+}
+.titulo2{
+    font-family: "bebas neue", cursive;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+article{
+    text-align: center;
+}
+.FilaUno{
+    display: flex;
+    padding: 50px 250px;
+    
+}
+.Producto1{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto1 h4 {
+    color: white
+}
+.Producto1  p{
+    color: white;
+}
+.Producto2{
+    background-color: #431800;
+   padding: 20px 70px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto2 h4 {
+    color: white
+}
+.Producto2  p{
+    color: white;
+}
+.Producto3{
+    background-color: #431800;
+    padding: 20px 70px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto3 h4 {
+    color: white
+}
+.Producto3  p{
+    color: white;
+}
+.Producto4{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto4 h4 {
+    color: white
+}
+.Producto4  p{
+    color: white;
+}
+.Producto5{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto5 h4 {
+    color: white
+}
+.Producto5  p{
+    color: white;
+}
+.Producto6{
+    background-color: #431800;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.Producto6 h4 {
+    color: white
+}
+.Producto6  p{
+    color: white;
+}
+
+.FilaDos{
+    display: flex;
+    padding: 50px 250px;
+}
+.FilaDos div h4{
+    color: white;
+}
+.FilaDos div p{
+    color: white;
+}
+.pagina3{
+    background-color: black;
+    background-image: url(imagenes/fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.encabezado3{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(179, 122, 58);
+}
+.navegador3 img{
+    display: flex;
+    float: left;
+    padding-left: 65px;
+    
+}
+.barra3{
+    display: flex; 
+    justify-content: center;   
+    padding-top: 10px;
+    font-family: "bebas neue", cursive;
+}
+.barra3 li{
+    list-style: none;
+}
+.barra3 li a{
+    color: black;
+    margin-right: 45px;
+    font-size: 35px;
+}
+.barra ul li a:hover{
+    color: white;
+}
+.titulo3 h1{
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: "bebas neue", cursive;
+    
+}
+.titulo3 p{
+    color: white;
+    font-family: "rajdhani", sans-serif;
+    font-size: 45px;
+    background-color: black;
+}
+.galeria3{
+    display: flex;
+    padding: 50px 150px;
+}
+.galeria4{
+    padding: 50px 50px;
+    display: flex;
+}
+.pagina4{
+    background-image: linear-gradient(to bottom, #c29a50, #bf944b, #bd8e47, #ba8843, #b7823f, #ab723c, #9d623a, #8e5437, #6d3d31, #4b2928, #28181a, #000000);}
+.encabezado4{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(179, 122, 58);
+}
+.navegador4 img{
+    display: flex;
+    float: left;
+    padding-left: 65px;
+    
+}
+.barra4{
+    display: flex; 
+    justify-content: center;   
+    padding-top: 10px;
+    font-family: "bebas neue", cursive;
+}
+.barra4 li{
+    list-style: none;
+}
+.barra4 li a{
+    color: black;
+    margin-right: 45px;
+    font-size: 35px;
+}
+.barra4 ul li a:hover{
+    color: white;
+}
+.titulo4{
+    color: white;
+    font-family: "bebas neue", cursive;
+    font-size: 50px;
+}
+form{
+    font-family: "rajdhani", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color:  rgb(179, 122, 58);
+    color: rgb(14, 14, 14);
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-family: "bebas neue", cursive;
+    font-size: 27px;
+    display: flex;
+    
+    
+}
+footer i{
+    font-size: 30px;
+    margin-right: 30px;
+    float: right;
+    
+
+}
