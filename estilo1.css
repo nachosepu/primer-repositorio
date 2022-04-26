@@ -113,11 +113,13 @@ li a{
     color: white;
 }
 .titulo2{
+    background-color: #000000;
     font-family: "bebas neue", cursive;
     font-size: 50px;
     color: rgb(0, 0, 0);
 }
 article{
+    background-color: #000000;
     text-align: center;
 }
 .FilaUno{
