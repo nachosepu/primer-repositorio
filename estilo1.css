@@ -383,6 +383,20 @@ article{
     font-family: "rajdhani", sans-serif;
     font-size: 45px;
     background-color: black;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    @keyframes aparecer {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
 }
 .galeria3{
     display: flex;
